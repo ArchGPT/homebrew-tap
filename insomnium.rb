@@ -8,7 +8,6 @@ class Insomnium < Formula
   depends_on "node" => :build
 
   def install
-    system "npm", "run", "app-package"
     system "mv", "./dist/mac-universal/Insomnium.app", "/Applications"
   end
 
