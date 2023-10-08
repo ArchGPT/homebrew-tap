@@ -1,6 +1,6 @@
 cask "insomnium" do
-  version "0.2.0"
-  sha256 "dc2c92aee4c731a929b46b3dd4e3f7a7b8cd816f9e5c4b185086c4d718f3306f"
+  version "0.2.1"
+  sha256 "c1bcd589b79a6898198a3aca2b55b5c7e72218668de7badeb5f8281e68c28364"
 
   url "https://github.com/ArchGPT/insomnium/releases/download/core%40#{version}/Insomnium.Core-#{version}.dmg",
       verified: "github.com/ArchGPT/insomnium/"
