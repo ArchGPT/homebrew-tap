@@ -1,8 +1,8 @@
 cask "insomnium" do
-  version "0.2.1-b"
-  sha256 "16d026a4f04bf35bde993f55daa16fc923effbaca9101b9bf8aaeb93de715423"
+  version "0.2.2"
+  sha256 "91e753f54ba9da7819cf44c5c1890be15e33efebc4a86a2e4a6c1a24f7e6a36d"
 
-  url "https://github.com/ArchGPT/insomnium/releases/download/core%40#{version}/Insomnium.Core-#{version}.dmg",
+  url "https://github.com/ArchGPT/insomnium/releases/download/core%40#{version}/Insomnium.CoreMacOS-#{version}.dmg",
       verified: "github.com/ArchGPT/insomnium/"
   name "Insomnium"
   desc "HTTP and GraphQL Client. FOSS Fork of Insomnia to be 100%-Local and no user login, etc"
