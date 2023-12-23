@@ -5,7 +5,7 @@ cask "insomnium" do
   url "https://github.com/ArchGPT/insomnium/releases/download/core%40#{version}/Insomnium.Core-#{version}.dmg",
       verified: "github.com/ArchGPT/insomnium/"
   name "Insomnium"
-  desc "HTTP and GraphQL Client. FOSS Fork of Insomnia to be 100%-Local and no user login, etc"
+  desc "HTTP & GraphQL Client. FOSS Fork of Insomnia. 100%-Local, no user login, etc"
   homepage "https://github.com/ArchGPT/insomnium/"
 
   livecheck do
