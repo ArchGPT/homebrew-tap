@@ -1,6 +1,6 @@
 cask "insomnium" do
-  version "0.2.2"
-  sha256 "91e753f54ba9da7819cf44c5c1890be15e33efebc4a86a2e4a6c1a24f7e6a36d"
+  version "0.2.3-a"
+  sha256 "71575c907345320fa620b9975e84ff448be5704f81c9a8aeaa5fbf46ff4fef09"
 
   url "https://github.com/ArchGPT/insomnium/releases/download/core%40#{version}/Insomnium.Core-#{version}.dmg",
       verified: "github.com/ArchGPT/insomnium/"
@@ -27,4 +27,3 @@ cask "insomnium" do
     "~/Library/Saved Application State/com.insomnium.app.savedState",
   ]
 end
-
